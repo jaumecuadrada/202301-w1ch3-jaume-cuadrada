@@ -16,6 +16,9 @@ nav {
   display: flex;
   justify-content: end;
   align-items: center;
+  text-align: end;
+  padding-right: 20px;
+  font-size: 23px;
 }
 
 .container {
@@ -24,11 +27,16 @@ nav {
   flex-direction: column;
 }
 
+.container2 {
+  display: flex;
+  text-align: left;
+}
+
 .first {
   display: flex;
   flex-direction: row;
   color: white;
-
+  justify-content: space-between;
   background-color: #389989;
 }
 
@@ -42,8 +50,25 @@ nav {
 }
 
 .negrita {
-  font-size: 18px;
+  font-size: 26px;
   font-weight: bolder;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.formulario1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 {
+  padding-bottom: 20px;
 }
 
 .ul-vertical {
@@ -59,6 +84,7 @@ li {
 
 h1 {
   padding: 20px;
+  font-size: 50px;
 }
 
 .seccond {
@@ -66,6 +92,7 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   min-height: 50px;
+  color: white;
 }
 
 span {
@@ -76,6 +103,7 @@ i {
   display: flex;
   align-items: center;
   padding-left: 20px;
+  font-size: 70px;
 }
 
 .dreta {
@@ -84,4 +112,63 @@ i {
   text-align: end;
   align-items: center;
   padding-right: 20;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+h2 {
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.principal {
+  display: block;
+  margin: 0 auto;
+  width: 510px;
+  color: #666666;
+  font-family: Arial;
+}
+
+.formulario2 {
+  width: 400px;
+  padding-left: 20px;
+}
+
+input,
+textarea {
+  width: 380px;
+  height: 27px;
+  background: #666666;
+  border: 2px solid #f6f6f6;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+textarea {
+  height: 150px;
+}
+
+#submit {
+  width: 85px;
+  height: 35px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button {
+  color: black;
 }
