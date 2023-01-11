@@ -1,0 +1,35 @@
+@import url("/node_modules/@fontsource/lato/index.css");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: lato, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #389989;
+}
+
+.seccond {
+  background-color: #44a080;
+}
+
+.third {
+  background-color: rgb(245, 200, 70);
+  flex: 1;
+}
