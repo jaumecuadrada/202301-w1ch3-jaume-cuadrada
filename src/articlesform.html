@@ -5,12 +5,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css" />
   <link rel="shortcut icon" href="carro.png" type="image/x-icon">
   <title>Lista de la compra</title>
 </head>
 
 <body>
-  <h1>Lista de la compra</h1>
+  <div class="container">
+    <section class="first">
+      <h1>Lista de la compra</h1>
+      <nav>
+        <ul>
+          <a href="index.html">Principal</a>
+          <a href="articlesform.html" class="negrita">Lista</a>
+          <a>Acerca de</a>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="seccond">
+      <i>-</i>
+      <span class="dreta">2/3 comprados</span>
+    </section>
+
+    <section class="third">
+      <h2>Añadir artículo</h2>
+      <form class="form">
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" name="nombre" placeholder="Nombre completo">
+        <label for="price">precio:</label>
+        <input id="price" name="precio" type="precio" placeholder="$$$">
+        <input id="submit" name="submit" type="submit" value="Añadir">
+      </form>
+    </section>
+
+  </div>
+
 
 </body>
 
